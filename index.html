@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- ionicons icons cdn -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <script defer src="index.js"></script>
+    <script defer src="index2.js"></script>
+
+</head>
+<body class="sticky">
+    <header class="header">
+        <!-- <img src="Images/b.png" alt="" class="logo"></img> -->
+
+        <h3 class="gradient-text">Portfolio Website</h3>
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="index.html" class="navbar-link home-link gradient-text2"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="about.html" class="navbar-link about-link gradient-text2"><i class="fa fa-user-circle-o"></i> About</a></li>
+                <li><a href="service.html" class="navbar-link ser-link gradient-text2"><i class="fa fa-handshake-o"></i>Services</a></li>
+                <li><a href="portfolio.html" class="navbar-link pf-link gradient-text2"><i class="fa fa-pie-chart"></i>Portfolio</a></li>
+                <li><a href="contact.html" class="navbar-link con-link gradient-text2"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="mob-nav-btn">
+          <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+          <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </div>
+
+    </header>
+
+    <!-- Main Section -->
+
+    <main>
+        <section class="sec-hero section">
+            <div class="container grid grid-two-column">
+                <!-- left side -->
+                <div  class="sec-hero-data">
+                    <p class="hero-top-data">This Is Me</p>
+                    <h1 class="hero-heading rainbow-text">Krutik Bundela</h1>
+      
+                    <p class="hero-para">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident dolores tenetur quas sed eum quaerat molestias! Minima quidem reprehenderit sapiente quod, blanditiis laudantium, odit unde omnis reiciendis similique exercitationem provident. 
+                    </p>
+                    <div>
+                        <a href="#" class="btn hire-me">Hire Me</a>
+                    </div>
+
+                </div>
+                <!-- right side -->
+                <div class="sec-hero-img">
+                    <img src="images/a.jpg" alt="krutik" class="hero-img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Bio Data Section -->
+
+    <section class="sec-bio section">
+        <div class="container grid grid-two-column">
+            <div class="bio-img">
+                <img src="images/b.jpg" alt="">
+            </div>
+
+            <!-- bio data right side -->
+
+            <div class="bio-data">
+                <h2 class="comm-heading">My Bio-Data</h2>
+                <p class="hero-para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                </p>
+                
+                <p>Provident dolores tenetur quas sed eum quaerat molestias! Minima quidem reprehenderit sapiente quod, blanditiis laudantium, odit unde omnis reiciendis similique exercitationem provident. 
+                </p>
+
+                <div class="bio-data-stats">
+                   <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar">
+                            <span>80%</span>
+                        </div>
+                    </div>
+
+
+                    <div class="bio-stats">
+                        <h3>Html</h3>
+                        <div class="bio-progress-bar bio-progress-1">
+                            <span>99%</span>
+                        </div>
+                    </div>
+
+                        <div class="bio-stats">
+                            <h3>css</h3>
+                            <div class="bio-progress-bar bio-progress-2">
+                                <span>75%</span>
+                            </div>
+                        </div>
+
+                            <div class="bio-stats">
+                                <h3>JavaScript</h3>
+                                <div class="bio-progress-bar bio-progress-3">
+                                    <span>45%</span>
+                                </div>
+                            </div>
+
+
+                                <div class="bio-stats">
+                                    <h3>MERN</h3>
+                                    <div class="bio-progress-bar bio-progress-4">
+                                        <span>20%</span>
+                                    </div>
+                                </div>
+
+                   </div>
+                        <div class="btn-bio-data">
+                            <a href="#" class="btn">Download CV</a>
+                        </div> 
+                </div>
+
+            </div>
+
+        </div>
+    </section> 
+
+
+    <!-- Portfolio Section -->
+
+    <section class="section sec-port" id="port-sec">
+        <div class="container">
+            <h2 class="comm-heading">Latest Works</h2>
+                <p class="hero-para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                </p>
+        </div>
+
+        <div class="p-btns">
+            <!-- .btn.p-btn*3  shortcut class nu naam aapi ne enter maare to automatic dv banni jaai-->
+            <div class="btn p-btn" data-btn-num="1">Website</div>
+            <div class="btn p-btn" data-btn-num="2">YouTube</div>
+            <div class="btn p-btn" data-btn-num="3">Design</div>
+        </div>
+
+        <div class="container grid grid-three-column port-imgs">
+            <div class="img-overlay p-btn--1">
+                <img src="images/port/a.jpg" alt="">
+                <div class="overlay">
+                    <a href="" class="comm-heading">Project 1</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--2 p-btn--3">
+                <img src="images/port/b.jpg" alt="">
+                <div class="overlay">
+                    <a href="" class="comm-heading">Project 2</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/port/c.jpg" alt="">
+                <div class="overlay">
+                    <a href="" class="comm-heading">Project 3</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/port/d.jpg" alt="">
+                <div class="overlay">
+                    <a href="" class="comm-heading">Project 4</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/port/e.jpg" alt="">
+                <div class="overlay">
+                    <a href="" class="comm-heading">Project 5</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/port/f.jpg" alt="">
+                <div class="overlay">
+                    <a href="" class="comm-heading">Project 6</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+            <!-- Work Counter SEction -->
+
+            <section class="section sec-work-data">
+
+                <div class="container grid grid-four-column">
+                    <div>
+                        <h2  class="count-num" data-number="2000">0+</h2>
+                        <p>Project Completed</p>
+                    </div>
+
+                    <div>
+                        <h2  class="count-num" data-number="5000">0+</h2>
+                        <p>Happy Clients </p>
+                    </div>
+
+                    <div>
+                        <h2  class="count-num" data-number="3000">0+</h2>
+                        <p>Cup Of Coffee</p>
+                    </div>
+
+                    <div>
+                        <h2  class="count-num" data-number="6000">0+</h2>
+                        <p>Project Completed</p>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- Service Section -->
+
+            <section class="section sec-ser">
+
+                <div class="container">
+                    <h2 class="comm-heading">Services</h2>
+                        <p class="hero-para">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        </p>
+                </div>
+
+                <div class="container grid grid-three-column">
+
+                    <div class="ser-box">
+                        <ion-icon name="desktop-outline" class="ser-icon"></ion-icon>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    </div>
+
+                    <div class="ser-box">
+                        <ion-icon name="briefcase-outline" class="ser-icon"></ion-icon>
+                        <h3>Projects</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    </div>
+
+                    <div class="ser-box">
+                        <ion-icon name="camera-outline" class="ser-icon"></ion-icon>
+                        <h3>Graphic Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    </div>
+
+                    <div class="ser-box">
+                        <ion-icon name="phone-portrait-sharp" class="ser-icon"></ion-icon>
+                        <h3>App Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    </div>
+
+                    <div class="ser-box">
+                        <ion-icon name="globe" class="ser-icon"></ion-icon>
+                        <!-- <i class="fa-duotone fa-solar-system" class="ser-icon"></i> -->
+                        <h3>System Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    </div>
+
+                    <div class="ser-box">
+                        <ion-icon name="images" class="ser-icon"></ion-icon>
+                        <h3>Game Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    </div>
+
+                </div>
+            </section>
+
+<!-- ======================================== 
+          Our Resume  Section Start  
+    ========================================  -->
+
+    <section class="section section-resume">
+        <div class="container grid grid-two-column">
+          <!-- resume left side  -->
+          <div class="resume-img">
+            <img
+              class="lazy-img"
+              src="images/w.jpg"
+              data-src="images/a.jpg"
+              alt="resume image"
+              loading="lazy"
+            />
+          </div>
+  
+          <!-- resume right side  -->
+          <div class="resume-data">
+            <h2 class="comm-heading">resume</h2>
+            <p class="resume-para">My Work Experience</p>
+  
+            <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Online educator on Youtuber</h3>
+                <div class="grid grid-two-column">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> ThapaTechnical,
+                    Inc.
+                  </p>
+                  <p><ion-icon name="location-outline"></ion-icon> Pune, India</p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <span>April 2018 - Present </span>
+                </p>
+              </div>
+            </div>
+            <!-- end  -->
+  
+            <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Online educator on Youtuber</h3>
+                <div class="grid grid-two-column">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> ThapaTechnical,
+                    Inc.
+                  </p>
+                  <p><ion-icon name="location-outline"></ion-icon> Pune, India</p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <span>April 2018 - Present </span>
+                </p>
+              </div>
+            </div>
+            <!-- end  -->
+  
+            <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Online educator on Youtuber</h3>
+                <div class="grid grid-two-column">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> ThapaTechnical,
+                    Inc.
+                  </p>
+                  <p><ion-icon name="location-outline"></ion-icon> Pune, India</p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <span>April 2018 - Present </span>
+                </p>
+              </div>
+            </div>
+            <!-- end  -->
+  
+            <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Online educator on Youtuber</h3>
+                <div class="grid grid-two-column">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> ThapaTechnical,
+                    Inc.
+                  </p>
+                  <p><ion-icon name="location-outline"></ion-icon> Pune, India</p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <span>April 2018 - Present </span>
+                </p>
+              </div>
+            </div>
+            <!-- end  -->
+  
+            <div class="resume-data-bottom-subsection">
+              <p class="resume-para">Education</p>
+              <div class="resume-data-subsection margin-small">
+                <div class="resume-data-left">
+                  <h3>Online educator on Youtuber</h3>
+                  <div class="grid grid-two-column">
+                    <p>
+                      <ion-icon name="business-outline"></ion-icon>
+                      ThapaTechnical, Inc.
+                    </p>
+                    <p>
+                      <ion-icon name="location-outline"></ion-icon> Pune, India
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="resume-data-right">
+                  <p class="resume-data-button">Master</p>
+                  <p>
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <span>April 2018 - Present </span>
+                  </p>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="resume-data-subsection margin-small">
+                <div class="resume-data-left">
+                  <h3>Online educator on Youtuber</h3>
+                  <div class="grid grid-two-column">
+                    <p>
+                      <ion-icon name="business-outline"></ion-icon>
+                      ThapaTechnical, Inc.
+                    </p>
+                    <p>
+                      <ion-icon name="location-outline"></ion-icon> Pune, India
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="resume-data-right">
+                  <p class="resume-data-button">Bachelor</p>
+                  <p>
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <span>April 2018 - Present </span>
+                  </p>
+                </div>
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <!--Slider Section -->
+
+        <section class="section  sec-testimonial">
+            <div class="container">
+                <h2 class="comm-heading">Happy Client Works</h2>
+            </div>
+
+            <!-- swiper  -->
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper">
+                  
+                  <!-- SEction Start -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                  <div class="swiper-slide">
+                    
+                    <div class="swiper-msg">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                      <figure>
+                        <img src="images/a.jpg" alt="">
+                      </figure>
+                      <div class="client-data-details">
+                        <p>Krutik Bundela</p>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section end -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+            
+
+        <!-- FreeLancing paralax Effect-->
+        <section class="section sec-fl">
+          <div class="overlay"></div>
+          <div class="container">
+            <h2>I Am <span> Available </span> For Freelancing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur iusto inventore vel temporibus exercitationem eaque quisquam dolor nostrum iure dolor</p>
+            <div>
+              <a href="#" class="btn hire-me">Hire Me</a>
+          </div>
+          </div>
+        </section>
+
+ <!-- Contact us -->
+  <section class="section sec-contact">
+    <div class="container">
+      <h2 class="comm-heading">Contact Us</h2>
+    </div>
+
+    <div class="sec-cont cont-container">
+      <form action="https://formspree.io/f/mqknwzzl"
+      method="POST">
+        <div class="grid grid-two-column">
+          <div>
+            <label for="username"></label>
+          <input type="text" name="username" placeholder="Username" id="username" required autocomplete="off">
+          </div>
+          <div>
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="demo@gmail.com" id="email" required autocomplete="off">
+          </div>          
+        </div>
+
+        <div>
+          <label for="subject"></label>
+          <input type="text" name="subject" placeholder="Subject" id="subject" required autocomplete="off">
+        </div>
+
+        <div>
+          <label for="textarea"></label>
+          <textarea name="textarea" id="textarea" placeholder="Message" cols="30" rows="10" required autocomplete="off"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" name="submit" id="submit" value="Send Message" class="btn">
+        </div>
+        
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer Section -->
+  <footer class="section footer">
+    <div class="container grid grid-four-column">
+      
+      <div class="f-about">
+        <h3>About</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe iure quasi sed nihil rerum minima officia explicabo, dicta, quidem a suscipit.
+        </p>
+      </div>
+      <!-- --end-- -->
+      <div class="f-link">
+        <h3>Links</h3>
+        <ul>
+          
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Home</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">About</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Services</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Portfolio</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- --end-- -->
+
+      <div class="f-ser">
+        <h3>Services</h3>
+        <ul>
+          
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Web Design</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Web Development</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Mern Project</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Online Classes</a>
+          </li>
+
+          <li>
+            <ion-icon name="arrow-forward"></ion-icon>
+            <a href="#">Youtube Courses</a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- --end-- -->
+
+      <div class="f-cont">
+        <h3>Have A Questions?</h3>
+        <ul>
+          
+          <li>
+            <ion-icon name="location-outline"></ion-icon>
+            <a href="#">Pune, India</a>
+          </li>
+
+          <li>
+            <ion-icon name="call"></ion-icon>
+            <a href="tel:+919876543210">+91 9876543210</a>
+          </li>
+
+          <li>
+            <ion-icon name="mail"></ion-icon>
+            <a href="mailto:info@krutik.com">info@krutik.com</a>
+          </li>
+        </ul>
+      </div>
+      <!-- --end-- -->
+    </div> 
+
+    <div class="container">
+      <div class="f-sicons">
+        <a href="https://www.instagram.com/_.kukiieeee._/">
+          <ion-icon name="logo-instagram" class="icons"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/_.kukiieeee._/">
+          <ion-icon name="logo-facebook" class="icons"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/_.kukiieeee._/">
+          <ion-icon name="logo-youtube" class="icons"></ion-icon>
+        </a>
+
+      </div>
+
+    </div>
+
+      <div class="f-credits">
+        <p>
+          copyright ©2022 All Right Reserved | This Template Is Made By Thapa Technical
+        </p>
+      </div>
+
+  </footer>
+
+</body>
+</html>
